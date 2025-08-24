@@ -1,0 +1,10 @@
+{
+  "data": "2025-08-15",
+  "tarefas": [
+    {"texto": "Tarefa 1", "concluida": false},
+    {"texto": "Tarefa 2", "concluida": true}
+  ],
+  "fracassos": [
+    {"texto": "Tarefa 3"}
+  ]
+}

@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produ.io</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.cdnfonts.com/css/archivo" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/antikor-mono" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Produ.io</h1>
+        <h3 class="typing"></h3>
+
+        <div class="container">
+
+            <div class="input-tarefas">
+                <input type="text" name="add-tarefa" id="add-tarefa" placeholder="Adicione sua tarefa"> <!--Input para receber as tarefas-->
+                <button type="submit" id="btn-add">Adicionar</button> <!--Botao(tipo submit) para adicionar tarefas-->
+            </div>
+
+            <h2>Tarefas de hoje</h2> <!--Armazenar tarefas diarias-->
+            <ul id="lista-hoje"></ul>
+
+            <h2>Tarefas fracassadas</h2> <!--Armazenar tarefas fracassadas-->
+            <ul id="lista-fracassada"></ul>
+
+            <div class="spot-light"></div>
+        </div>
+    </main>
+    <div class="spot-light"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
