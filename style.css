@@ -193,6 +193,10 @@ li button:hover {
         font-size: 1rem;
     }
 
+    .spot-light {
+        display: none;
+    }
+    
     .container {
         padding: 0.8rem;
         width: 90%;
