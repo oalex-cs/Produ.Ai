@@ -116,18 +116,6 @@ li.fracasso {
     border-width: 0.15rem;
 }
 
-.spot-light {
-    position: absolute;
-    width: 5000px;
-    height: 5000px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(255,255,255,0.8), transparent 3%);
-    pointer-events: none; 
-    transform: translate(-50%, -50%);
-    filter: blur(70px);
-    transition: transform 0.05s linear;
-}
-
 li button {
     display: flex;
     flex-direction: row;
@@ -148,10 +136,6 @@ li button:hover {
 }
 
 @media (max-width: 768px) {
-
-    .spot-light {
-        display: none;
-    }
 
     h1 {
         font-size: 2.5rem;
