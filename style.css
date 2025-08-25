@@ -166,15 +166,17 @@ li button:hover {
     }
 
     .container {
-        padding: 0.8rem;
-        width: 90%;
-        justify-content: center;
+        display: flex;
         align-items: center;
-        box-sizing: border-box;
+        justify-content: center;
+        max-width: 100%;
     }
 
     body {
+        display: flex;
+        align-items: center;
         justify-content: center;
+        max-width: 100%;
     }
 
     ul {
@@ -183,33 +185,5 @@ li button:hover {
 
     li {
         font-size: 0.9rem;
-    }
-}
-
-
-@media (max-width: 675px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    h2 {
-        font-size: .75rem;
-    }
-
-    h3 {
-        font-size: 1rem;
-    }
-
-    .container {
-        padding: 0.8rem;
-        width: 90%;
-    }
-
-    ul {
-        width: 100%;
-    }
-
-    li {
-        font-size: 0.7rem;
     }
 }
